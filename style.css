@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+header{
+  background-color: white;
+  text-align: center;
+  border-top: 3px gray;
+  border-left: 3px gray;
+  border-right: 3px gray;
+  padding-top: 15px;
+}
+body{
+  font-family: 'roboto', sans-serif; color:black;
+  margin: 0;
+  background-color: lightcoral;
+}
+nav a:link{
+  color: blue;
+}
+nav a:visited{
+  color: pink;
+}
+nav a:hover{
+  color: black;
+}
+nav a:active{
+  color: blue;
+}
+nav li{
+  display: inline;
+}
+nav ul{
+  display: inline;
+  list-style-type: none;
+  padding-bottom: 60px;
+}
+
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+nav a:hover{
+  background:lightpink;
+}
+nav a:link{
+  color:#5C7FA3;
+}
+nav a:visited{
+  color:#344873;
+}
+nav a:active{
+  color:#000000;
+
+}
+h1{
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+h2{
+text-align: center;
+font-size: 30px;
+}
+nav{
+  text-align: center;
+  background-color:black ;
+  padding: 5px;
+  border-bottom: 3px purple;
+  border-left: 3px purple;
+  border-right: 3px purple;
+}
+main {
+  max-width:1200px;
+  margin: 20px auto 50px;
+  color: black;
+}
+
+.container {
+  display:inline-flex;
+  align-items:center;
+  justify-content: center;
+  padding: 20px;
+  text-align:left;
+}
+p{
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+footer{
+  color:lightcoral;
+  text-align: center;
+  border: 3px purple;
+  padding: 10px;
+  background-color: white;
+  position:relative;
+  width: 100%;
+}
+footer-s{
+  color:lightcoral;
+  text-align: center;
+  border: 3px purple;
+  padding: 10px;
+  background-color: white;
+  position:relative;
+  width: 100%;
+}
+h3{
+  font-size:1em;
+  text-align: left;
+}
+img {
+  display: block;
+  margin: 50px 0 50px 100px;
+  object-position: right;
+  padding: 20px;
+  
+}
+.logo{
+  display:block;
+  margin :0;
+}
+#game {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-controls {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.game-controls button {
+  display: inline-block;
+  margin-top: 10px;
+}
+.myButton {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: black;
+  border: none;
+}
+
+.myButton:hover {
+  background-color: #3e8e41;
+}
+
+
+.my-div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+img {
+  display: block;
+  margin: 50px 0 50px 100px;
+  object-position: right;
+}
+li{
+  text-align: left;
+}
+ul{
+  text-align: left;
+}
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+  h1{
+    font-size: 2em;
+  }
+}
+/* CSS for Smartphones */
+@media only screen and (max-width: 768px){
+  h1{
+    font-size: 1.5em;
+  }
+}
